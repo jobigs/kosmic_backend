@@ -1,13 +1,110 @@
+@font-face {
+    font-family: Opensans;
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+    font-family: Opensans;
+}
+
 .navbar-brand {
     display:flex;
 }
 
 .flex-box-body {
     position: relative;
+    display: flex;
+    flex-wrap:wrap;
     flex-direction: column;
 }
 
 .flex-box-intro {
     position: relative;
+    display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: left;
+}
+
+.flex-box-intro-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10em;
+}
+
+.flex-box-intro-column>h1 {
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.flex-box-intro-column>h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #686868;
+}
+
+.flex-box-ms {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex-box-m {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: start;
+    text-align: center;
+    width: 552px;
+    height: 461px;
+}
+
+.flex-box-s {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: start;
+    text-align: center;
+    width: 552px;
+    height: 461px;
+}
+
+.flex-box-m>h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.flex-box-m>p {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.flex-box-s>p {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-km-1 {
+    width: auto;
+}
+
+.main-km-2 {
+    width: 409px;
+    height: 380px;
 }
