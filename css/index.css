@@ -25,6 +25,7 @@ body {
     flex-wrap:wrap;
     align-content: center;
     justify-content: left;
+    background-color: red;
 }
 
 .flex-box-intro-column {
@@ -50,6 +51,39 @@ body {
     font-size: 14px;
     font-weight: bold;
     color: #686868;
+}
+
+.flex-box-intro-row>a {
+    margin-top: 10px;
+    width: 133px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    pointer-events: none;
+    display: flex;
+    font-weight: bold;
+}
+
+.flex-box-intro-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.get-quote-now {
+    border-radius: 5px;
+    background: #355CA7;
+    color: white;
+}
+
+.learn-more {
+    border-style: solid;
+    border-radius: 5px;
+    border: 10;
+    border-color: #355CA7;
+    color: #355CA7;
 }
 
 .flex-box-ms {
